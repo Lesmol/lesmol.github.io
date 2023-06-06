@@ -1,0 +1,610 @@
+<html lang="en">
+  <head>
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesedi Molemi</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+    <header class="header">
+      <h1 class="name">lesedi<span>.</span></h1>
+    </header>
+
+    <div class="books-container">
+      <h1 class="container-heading-span">
+        books i've read <span>&#10096;</span>top 4<span>&#10097;</span>
+      </h1>
+      <h1 class="container-heading container-heading__top">
+        books i've read <span>&#10096;</span>top 14<span>&#10097;</span>
+      </h1>
+      <h1 class="container-heading container-heading__top-450px">
+        books i've read 
+        <br>
+        <span>&#10096;</span>top 14<span>&#10097;</span>
+      </h1>
+      <br /><br />
+
+      <!--* DESKTOP/LAPTOP Books section -->
+      <!-- This section of html is for the tablet display sizes -->
+      <div class="books-container-items">
+        <div class="books-container-items-left">
+          <!--* First Books Row -->
+          <div class="book-layout books-first-row">
+            <div class="box" id="box-1">
+              <h1>psychology.</h1>
+              <hr />
+              <br />
+
+              <div class="book-content-layout">
+                <img
+                  class="book-image"
+                  src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1581527774i/41881472.jpg"
+                  alt="Psycology Of Money Book Cover"
+                  srcset=""
+                />
+
+                <div class="book-text">
+                  <h2>notable chapters.</h2>
+                  <ul>
+                    <li>c1: No One's Crazy</li>
+                    <li>c8: Man in the Car Paradox</li>
+                    <li>c9: Wealth is What You Don't See</li>
+                    <li>c17: The Seduction of Pessimism</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="box" id="box-2">
+              <h1>business.</h1>
+              <hr />
+              <br />
+
+              <div class="book-content-layout">
+                <img
+                  class="book-image"
+                  src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546097703i/76865.jpg"
+                  alt="Good To Great Book Cover"
+                  srcset=""
+                />
+
+                <div class="book-text">
+                  <h2>notable chapters.</h2>
+                  <ul>
+                    <li>c3: first who, then what</li>
+                    <li>c4: confront the brutal facts</li>
+                    <li>c5: the hedgehog concept</li>
+                    <li>c6: the culture of diciipline</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--* Second Books Row -->
+          <div class="book-layout books-second-row">
+            <div class="box" id="box-3">
+              <h1>business.</h1>
+              <hr />
+              <br />
+
+              <div class="book-content-layout">
+                <img
+                  class="book-image"
+                  src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627034891i/58612786.jpg"
+                  alt="$100 Million Offers Book Cover"
+                  srcset=""
+                />
+
+                <div class="book-text">
+                  <h2>notable chapters.</h2>
+                  <ul>
+                    <li>c3: pricing: the commodity problem</li>
+                    <li>c6: value offer: the value equation</li>
+                    <li>
+                      c9: value offer: creating your grand slam offer part I
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="box" id="box-4">
+              <h1>copy writing.</h1>
+              <hr />
+              <br />
+
+              <div class="book-content-layout">
+                <img
+                  class="book-image"
+                  src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1365545782i/17732053.jpg"
+                  alt="The Boron Letters Book Cover"
+                  srcset=""
+                />
+
+                <div class="book-text">
+                  <h2>notable letter.</h2>
+                  <ul>
+                    <li>letter #11: goals</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="books-container-items-right">
+          <h1>quotes</h1>
+          <br />
+          <div>
+            "few things matter more with money than understanding your own time
+            horizon" ~the psychology of money
+          </div>
+          <br /><br />
+          <div>
+            "the signature of mediocrity is not an unwillingness to change; the
+            signature of mediocrity is chronic inconsistency" ~ good to great
+          </div>
+          <br /><br />
+          <div>
+            "there is no strategic benefit for being the second cheapest in a
+            market, but there is a benefit for being the most expensive" ~ $100
+            million offers
+          </div>
+          <br /><br />
+          <div>"try things atleast twice" ~ the boron letters</div>
+        </div>
+      </div>
+
+      <!--* TABLET Books Section-->
+      <!-- This section of html is for the tablet display sizes -->
+      <div class="tablet">
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="10"
+        slides-per-view="2">
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436202607i/3735293.jpg"
+              alt="Clean Code Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1581527774i/41881472.jpg"
+              alt="Psycology Of Money Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1602574232i/55539565.jpg"
+              alt="Think Again Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546097703i/76865.jpg"
+              alt="Good To Great Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1412047084i/4122.jpg"
+              alt="Built To Last Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627034891i/58612786.jpg"
+              alt="$100 Million Offers Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1580933517i/51007045.jpg"
+              alt="Gym Launch Secrets Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1563214273l/50125990.jpg"
+              alt="The Stellenbosch Maifa Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348976729i/100158.jpg"
+            alt="The Luck Factor Book Cover"
+            srcset="">
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1545854312i/12609433.jpg"
+            alt="The Power Of Habits Book Cover"
+            srcset="">
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg"
+            alt="Atomic Habits Book Cover"
+            srcset="">
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1365545782i/17732053.jpg"
+              alt="The Boron Letters Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344266315i/3228917.jpg"
+              alt="Outliers Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1325861570i/170448.jpg"
+              alt="Animal Farm Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+        </swiper-container>
+
+      </div>
+
+      <!--* PHONE Books Section -->
+      <!-- This section of html is for the phone display sizes -->
+      <div class="phone">
+        <swiper-container class="mySwiper" pagination="true">
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436202607i/3735293.jpg"
+              alt="Clean Code Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1581527774i/41881472.jpg"
+              alt="Psycology Of Money Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1602574232i/55539565.jpg"
+              alt="Think Again Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546097703i/76865.jpg"
+              alt="Good To Great Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1412047084i/4122.jpg"
+              alt="Built To Last Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627034891i/58612786.jpg"
+              alt="$100 Million Offers Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1580933517i/51007045.jpg"
+              alt="Gym Launch Secrets Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1563214273l/50125990.jpg"
+              alt="The Stellenbosch Maifa Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348976729i/100158.jpg"
+            alt="The Luck Factor Book Cover"
+            srcset="">
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1545854312i/12609433.jpg"
+            alt="The Power Of Habits Book Cover"
+            srcset="">
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg"
+            alt="Atomic Habits Book Cover"
+            srcset="">
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1365545782i/17732053.jpg"
+              alt="The Boron Letters Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344266315i/3228917.jpg"
+              alt="Outliers Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1325861570i/170448.jpg"
+              alt="Animal Farm Book Cover"
+              srcset=""
+            />
+          </swiper-slide>
+        </swiper-container>
+      </div>
+
+    </div>
+
+    <!--* DESKTOP/LAPTOP Anime section -->
+    <!-- This section of html is for the tablet display sizes -->
+    <div class="anime-container">
+      <h1 class="container-heading-span">
+        anime i've watched <span>&#10096;</span>top 4<span>&#10097;</span>
+      </h1>
+      <h1 class="container-heading anime-container-heading__top">
+        anime i've watched <span>&#10096;</span>top 6<span>&#10097;</span>
+      </h1>
+      <br /><br />
+
+      <div class="anime-container-items-1">
+        <div class="anime-container-items-right">
+          <h1>
+            what to expect <span>&#10096;</span>top 2<span>&#10097;</span>
+          </h1>
+
+          <br />
+          <h3>demon slayer</h3>
+          <p>
+            If you're looking for an anime that will keep you on the edge of
+            your seat, Demon Slayer is the perfect choice. With its stunning
+            visuals and thrilling action, you'll be hooked from the very first
+            episode. And don't forget about the lovable characters! Tanjiro,
+            Nezuko, and the rest of the gang will make you laugh, cry, and
+            cheer.
+          </p>
+          <br /><br />
+          <h3>mashle: muscle & magic</h3>
+          <p>
+            With its over-the-top humor and lovable characters, Mashle: Muscle &
+            Magic is a surefire way to put a smile on your face. And don't
+            forget about the action! The fight scenes in Mashle: Muscle & Magic
+            are some of the most creative and exciting in anime.
+          </p>
+        </div>
+
+        <div class="anime-container-items-left">
+          <!--* First Anime Row -->
+          <div class="anime-layout anime-first-row">
+            <div class="box" id="box-1">
+              <div class="anime-content-layout">
+                <img
+                  class="anime-image"
+                  src="https://demonslayer-anime.com/assets_portal/img/main/img_katanakaji3.jpg"
+                  alt="Demon Slayer Cover"
+                  srcset=""
+                />
+
+                <div class="anime-text">
+                  <h1>watching...</h1>
+                  <hr />
+                  <p>
+                    Demon Slayer is an action-packed anime about a young boy who
+                    joins a group of demon slayers to avenge his family, who
+                    were slaughtered by demons. The anime is set in Taisho-era
+                    Japan and features beautiful animation, exciting fight
+                    scenes, and lovable characters.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box" id="box-2">
+              <div class="anime-content-layout">
+                <img
+                  class="anime-image"
+                  src="https://m.media-amazon.com/images/I/71aIUtWoqHL.jpg"
+                  alt="Tokyo Ghoul Cover"
+                  srcset=""
+                />
+
+                <div class="anime-text">
+                  <h1>complete.</h1>
+                  <hr />
+                  <p>
+                    Tokyo Ghoul is a dark and gritty anime about a human who
+                    becomes a ghoul, a creature that feeds on human flesh. The
+                    anime explores the themes of good vs. evil, humanity vs.
+                    monstrosity, and the nature of identity.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--* Second Anime Row -->
+          <div class="anime-layout anime-second-row">
+            <div class="box" id="box-3">
+              <div class="anime-content-layout">
+                <img
+                  class="anime-image"
+                  src="https://m.media-amazon.com/images/M/MV5BNzBiN2M0NTEtMTE4Yi00NTFjLTlkYzItMjY2NjY0YWMwZjg5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg"
+                  alt="Mashle: Muscles & Magics Cover"
+                  srcset=""
+                />
+
+                <div class="anime-text">
+                  <h1>watching...</h1>
+                  <hr />
+                  <p>
+                    Muscle & Magic is a fun and lighthearted anime about a boy
+                    who can only use his muscles to cast magic. The anime is set
+                    in a world where magic is everything, and Mash must use his
+                    strength and ingenuity to survive.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box" id="box-4">
+              <div class="anime-content-layout">
+                <img
+                  class="anime-image"
+                  src="https://kbimages1-a.akamaihd.net/9b90e481-4b79-47e1-a919-3d0a46752177/1200/1200/False/chainsaw-man-vol-1.jpg"
+                  alt="Chainsaw Man Cover"
+                  srcset=""
+                />
+
+                <div class="anime-text">
+                  <h1>season ended.</h1>
+                  <hr />
+                  <p>
+                    Chainsaw Man is a violent and bloody anime about a boy who
+                    has the head of a chainsaw. The anime is set in a dark and
+                    dangerous world, and Denji must use his chainsaw powers to
+                    fight for survival.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--* TABLET Anime Section -->
+      <!-- This section of html is for the tablet display sizes -->
+      <div class="tablet">
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="10"
+        slides-per-view="2">
+          <swiper-slide>
+            <img
+              src="https://demonslayer-anime.com/assets_portal/img/main/img_katanakaji3.jpg"
+              alt="Demon Slayer Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://m.media-amazon.com/images/I/71aIUtWoqHL.jpg"
+              alt="Tokyo Ghoul Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://m.media-amazon.com/images/M/MV5BNzBiN2M0NTEtMTE4Yi00NTFjLTlkYzItMjY2NjY0YWMwZjg5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg"
+              alt="Mashle: Muscles & Magics Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://kbimages1-a.akamaihd.net/9b90e481-4b79-47e1-a919-3d0a46752177/1200/1200/False/chainsaw-man-vol-1.jpg"
+              alt="Chainsaw Man Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://m.media-amazon.com/images/M/MV5BYmU0YjMyNDctNWZhYS00ZGNiLThlNWYtN2FiNTQ1NWM4YWFjXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg"
+            alt="Hell's Paradise Cover"
+            srcset="">
+          </swiper-slide>
+          <swiper-slide>
+            <img 
+            src="https://m.media-amazon.com/images/I/81eE70hiNzL.jpg"
+            alt="I want to eat your pancrease Cover"
+            srcset="">
+          </swiper-slide>
+        </swiper-container>
+      </div>
+
+      <!--* Phone Anime Section -->
+      <!-- This section of html is for the phone display sizes -->
+      <div class="phone">
+        <swiper-container class="mySwiper" pagination="true">
+          <swiper-slide>
+            <img
+              src="https://demonslayer-anime.com/assets_portal/img/main/img_katanakaji3.jpg"
+              alt="Demon Slayer Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://m.media-amazon.com/images/I/71aIUtWoqHL.jpg"
+              alt="Tokyo Ghoul Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://m.media-amazon.com/images/M/MV5BNzBiN2M0NTEtMTE4Yi00NTFjLTlkYzItMjY2NjY0YWMwZjg5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg"
+              alt="Mashle: Muscles & Magics Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="https://kbimages1-a.akamaihd.net/9b90e481-4b79-47e1-a919-3d0a46752177/1200/1200/False/chainsaw-man-vol-1.jpg"
+              alt="Chainsaw Man Cover"
+              srcset=""
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://m.media-amazon.com/images/M/MV5BYmU0YjMyNDctNWZhYS00ZGNiLThlNWYtN2FiNTQ1NWM4YWFjXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg"
+            alt="Hell's Paradise Cover"
+            srcset="">
+          </swiper-slide>
+          <swiper-slide>
+            <img 
+            src="https://m.media-amazon.com/images/I/81eE70hiNzL.jpg"
+            alt="I want to eat your pancrease Cover"
+            srcset="">
+          </swiper-slide>
+        </swiper-container>
+      </div>
+
+
+      <!--* Footer -->
+    <footer>
+      <hr />
+      <div class="footer-content">
+        created with <span>&#10084;</span> by lesedi<span>.</span>
+      </div>
+      <h6>last updated: May 2023</h6>
+    </footer>
+  </body>
+</html>
